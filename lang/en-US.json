@@ -1,0 +1,32 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Analytics Plugin",
+  "text": {
+    "plugins": {
+      "emi_indo_analyticsbasic": {
+        "name": "Analytics",
+        "description": "Google Analytics collects usage and behavior data for your web app.",
+        "help-url": "https://github.com/EMI-INDO/c3addon-bug/issues",
+        "properties": {},
+        "aceCategories": {
+          "analytics": "analytics"
+        },
+        "conditions": {},
+        "actions": {
+          "log-event": {
+            "list-name": "Log Event",
+            "display-text": "Log Event, (name: [b]{0}[/b])",
+            "description": "Set Log Event",
+            "params": {
+              "name": {
+                "name": "Name :",
+                "desc": "Type String"
+              }
+            }
+          }
+        },
+        "expressions": {}
+      }
+    }
+  }
+}

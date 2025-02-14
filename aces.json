@@ -1,0 +1,20 @@
+{
+  "analytics": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "log-event",
+        "scriptName": "LogEvent",
+        "highlight": false,
+        "isAsync": true,
+        "params": [
+          {
+            "id": "name",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  }
+}
